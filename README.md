@@ -2,6 +2,7 @@
 
 This project captures images using a camera, detects faces using RetinaFace, and classifies emotions using deep learning models — EfficientNet and a custom CNN.
 
+![Facial Emotion Recognition](./fer.jpg)
 ---
 
 ##  Key Features
