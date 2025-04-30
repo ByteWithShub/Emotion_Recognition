@@ -1,0 +1,10 @@
+Our Dataset: FER-2013 
+- This dataset can be downloaded from Kaggle or though Google Colab 
+
+
+
+import kagglehub
+# Download latest version
+path = kagglehub.dataset_download("msambare/fer2013")
+
+print("Path to dataset files:", path) 
