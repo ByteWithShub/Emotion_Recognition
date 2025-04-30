@@ -1,0 +1,7 @@
+#Requirements 
+Tensorflow
+Opencv-python
+Retina-face
+Keras
+Matplotlib
+Numpy 
