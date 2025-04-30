@@ -1,10 +1,20 @@
-Our Dataset: FER-2013 
-- This dataset can be downloaded from Kaggle or though Google Colab 
+"""Our Dataset: FER-2013 
+- This dataset can be downloaded from Kaggle or though Google Colab"""
 
 
-
+##Method 1: Download through kaggle 
 import kagglehub
-# Download latest version
+#Downloading latest version
 path = kagglehub.dataset_download("msambare/fer2013")
-
 print("Path to dataset files:", path) 
+
+
+
+##Method 2: Download directly through Colab
+#Mounting drive
+from google.colab import drive
+drive.mount('/content/drive')
+#Model path
+model_path = '/content/drive/MyDrive/path/to/your/file'
+#Checking model directory
+os.path.exists(model_path)
